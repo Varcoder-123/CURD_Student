@@ -11,12 +11,11 @@ class Student{
         getStudentById(studid){
             return axios.get(url+"/"+studid)
         }
-        updateEmployeeById(studid,stud){
+        updateEmployeeById(studid,stud){ 
             return axios.put(url+"/"+studid,stud)
         }
         deleteemployee(employeeid){
             return axios.delete(url+"/"+employeeid);
-    
         }
     
 }
